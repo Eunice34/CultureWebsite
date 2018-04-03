@@ -1,0 +1,83 @@
+@font-face {
+	/* First New Font from DaFont.com */
+    font-family: MyNewFont;
+    src: url(../fonts/Fely.otf);
+	
+	/* Second Font from DaFont.com */
+	font-family: MyNewFont2;
+    src: url(../fonts/GeosansLight.ttf);
+}
+
+@media all and (min-width: 480px){
+	html, body {
+		background-color:green;
+		
+	}
+}
+
+@media all and (min-width: 640px) {
+	html, body {
+		background-color:pink;
+		
+	}	
+}
+
+@media all and (min-width: 800px) {
+	html, body {
+		background-color:rgba(0,0,0,0.5);
+		margin:0px;
+		padding:0px;
+	}
+
+	body{
+		text-align: center;
+	}
+
+	.container-fluid {
+		padding:0px;
+		max-width:100%;
+		margin-left: auto;
+	}
+
+	#jumbotron1 {
+		margin:0px;
+		padding:0px;
+		padding-top:100px;
+		padding-bottom:20px;
+		max-width:100%;
+		height: 350px;
+		background-image: url(../img/SkylineLondonBanner2.jpg);
+		background-repeat: no-repeat;
+		background-color: rgb(0,0,0);
+	}
+
+	/* Fourth thing I did this morning */
+	div.jumbotron h1 {
+		font-family: MyNewFont;
+		font-size: 36pt;
+		color: rgb(244,149,66);
+	}
+
+	div.row{
+		margin:0px;
+		padding:0px;
+		max-width: 100%;
+	}
+
+	div.boxes.well {
+		float: left;
+		margin-left:20px;
+		width: 250px;
+	}
+
+	img {
+    width:100%;
+	}
+
+	#sidebar {
+		float:left;
+        width:100px;
+	}
+
+
+}
